@@ -6,7 +6,6 @@ from PyQt5.QtGui import *
 
 
 class MyApp(QWidget):
-
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -98,7 +97,7 @@ class MyApp(QWidget):
         elif a == 2 and com == 0:
             print('패배')
         else:
-            print('승리')        
+            print("승리")
 
 if __name__ == '__main__':
    app = QApplication(sys.argv)
